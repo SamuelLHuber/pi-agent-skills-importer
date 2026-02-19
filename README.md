@@ -42,6 +42,15 @@ export PI_AGENT_SKILLS_IMPORTER_DIRS="~/.agent/skills,~/work/skills"
 
 If both are set, the flag wins. If neither is set, the default path is used.
 
+## Example Skill
+
+A sample skill is included in `skills/my-skill/SKILL.md`.
+
+```bash
+pi install git:github.com/SamuelLHuber/pi-agent-skills-importer
+# Skills in this repo are available via the package loader
+```
+
 ## Notes
 
 - Each configured directory is passed as a skill root. pi handles scanning and validation.
