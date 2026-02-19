@@ -55,7 +55,7 @@ cp -R skills/my-skill ~/.agent/skills/
 
 ## Demo
 
-![](demo.png)
+![](demo.jpg)
 
 ## Notes
 
