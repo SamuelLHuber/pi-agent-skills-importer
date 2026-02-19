@@ -46,10 +46,16 @@ If both are set, the flag wins. If neither is set, the default path is used.
 
 A sample skill is included in `skills/my-skill/SKILL.md`.
 
+To use it as a local skill, move (or copy) it into `~/.agent/skills`:
+
 ```bash
-pi install git:github.com/SamuelLHuber/pi-agent-skills-importer
-# Skills in this repo are available via the package loader
+mkdir -p ~/.agent/skills
+cp -R skills/my-skill ~/.agent/skills/
 ```
+
+## Demo
+
+![Demo](demo.png)
 
 ## Notes
 
